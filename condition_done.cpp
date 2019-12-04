@@ -38,6 +38,7 @@ public:
 	}
 };
 
+// superaśny komentarz :)
 // modified example from http://www.cplusplus.com/reference/condition_variable/condition_variable/notify_all/
 
 condition_done cd;
@@ -60,7 +61,7 @@ int main ()
     threads[i] = std::thread(print_id,i);
 
   std::cout << "10 threads ready to race...\n";
-  go();                       // go!
+  go();                       // go! znaczy jazda!
 
   for (auto& th : threads) th.join();
 
